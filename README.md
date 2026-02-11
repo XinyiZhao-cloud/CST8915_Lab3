@@ -13,6 +13,12 @@
 
 ---
 
+## Link of Repo
+
+- order-service:  https://github.com/XinyiZhao-cloud/order-service  
+- product-service:  https://github.com/XinyiZhao-cloud/product-service-python  
+- store-front:  https://github.com/XinyiZhao-cloud/store-front  
+
 ## Technical Explanations
 
 ### What challenges did you encounter when configuring environment variables in the GitHub Actions workflow?
