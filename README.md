@@ -1,9 +1,9 @@
 # CST8915 Lab 3: Azure Web App and Azure Static Web Apps
 
-**Student Name**: Xinyi Zhao
-**Student ID**: 040953633
-**Course**: CST8915 Full-stack Cloud-native Development
-**Semester**: Winter 2026
+**Student Name**: Xinyi Zhao  
+**Student ID**: 040953633  
+**Course**: CST8915 Full-stack Cloud-native Development  
+**Semester**: Winter 2026  
 
 ---
 
@@ -19,6 +19,7 @@
 - product-service:  https://github.com/XinyiZhao-cloud/product-service-python  
 - store-front:  https://github.com/XinyiZhao-cloud/store-front  
 
+---
 
 ### What challenges did you encounter when configuring environment variables in the GitHub Actions workflow?
 
@@ -46,8 +47,6 @@ After moving the store-front from a VM to Azure Static Web Apps, browser request
 When the order-service failed in Azure, Log Stream did not immediately show detailed errors. I used Kudu to inspect environment variables inside the running container and tested connectivity to RabbitMQ. This experience demonstrated how cloud debugging differs from local development and reinforced the importance of correct environment configuration.  
 
 ---
-
-## Acknowledgments
 
 ## Acknowledgments
 
