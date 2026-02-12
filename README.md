@@ -40,9 +40,9 @@ Additionally, separating configuration from code improved flexibility and securi
 
 ## Challenges and Learnings (Optional)
 
-1. Frontend migration to Azure Static Web Apps
+- 1. Frontend migration to Azure Static Web Apps  
 After moving the store-front from a VM to Azure Static Web Apps, browser requests were initially blocked due to CORS restrictions. This required enabling CORS in the backend and injecting backend URLs through GitHub Actions during the build process. This helped me understand the difference between build-time and runtime configuration.  
-2. Cloud debugging and environment validation
+- 2. Cloud debugging and environment validation   
 When the order-service failed in Azure, Log Stream did not immediately show detailed errors. I used Kudu to inspect environment variables inside the running container and tested connectivity to RabbitMQ. This experience demonstrated how cloud debugging differs from local development and reinforced the importance of correct environment configuration.  
 
 ---
